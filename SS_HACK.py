@@ -96,21 +96,6 @@ while True:
 #########################
 ''')
       print('Input filename:')
-      filename1 = input()
-      print('Output filename:')
-      result1 = input()
-      handle = open(filename1, "r")
-      str=handle.readlines();
-      for r in str:
-         str1=str1+r
-      handle.close()
-      find=rndchars();repl=rndchars();aasf=rndchars();sdfr=rndchars();str1=b64encode(str1);afher=rndchars();thfyh=rndchars()
-      f = open(result1, 'w')
-      f.write('<script>String.prototype.'+aasf+' = function ('+find+', '+repl+') {if ('+find+' === '+repl+') return this;let temp = this;let index = temp.indexOf('+find+');while (index != -1) {temp = temp.replace('+find+', '+repl+');index = temp.indexOf('+find+');}return temp;};let '+afher+' = new Function(document.write(atob(\"'+str1+'\")));'+afher+'();</script>')
-      f.close()
-      handle=[]
-   if int(cmd)==2:
-      print('Input filename:')
       filename2 = input()
       print('Output filename:')
       result2 = input()
