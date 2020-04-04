@@ -1,0 +1,5 @@
+six
+shodan
+datetime
+colorama
+pygame
